@@ -1,0 +1,165 @@
+body,
+html {
+    position: relative;
+    overflow: hidden;
+}
+
+.container-cover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 800px;
+    z-index: 2;
+    font-size: 50px;
+    color: #d1a11e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 800px;
+    z-index: 2;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+.my-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 30px 30px;
+    margin-left: 15px;
+}
+
+#my-face {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.details {
+    background-color:rgba(20, 18, 18, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 10px 100px 70px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 12;
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 5px 20px 5px;
+    border-color: #685c5d;
+    border-style: solid;
+}
+
+#my-bigger-face {
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+}
+
+#right {
+    flex-grow: 3;
+    width: 180px;
+    height: 70px;
+    margin: 5px 20px 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+}
+
+.info {
+    display: flex;
+    padding: 10px 10px;
+}
+
+#name {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+#gmail {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.line {
+    width: 400px;
+    height: 2px;
+    background-color: rgb(192, 188, 188);
+}
+
+
+
+.info {
+    margin: 20px 5px;
+}
+
+.bot {
+    display: flex;
+    flex-grow: 25;
+}
